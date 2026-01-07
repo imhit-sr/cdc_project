@@ -33,7 +33,8 @@ Satellite images are programmatically downloaded using **Esri World Imagery** ti
 - **Zoom level:** 19
 - **Image size:** ~256×256 (later resized for CNN input)
 - **Naming convention:** `{row_index}.jpg`
-- **Storage directory:** `sat_images/`
+- **Storage directory:** `sat_images/` for training dataset
+- and ** 'sat1_images/' for test data.
 
 ### Script used
 `data_fetcher.py`
